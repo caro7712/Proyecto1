@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Proyecto_1.NewFolder.Menu"
+             BackgroundColor="LightBlue"
+             Title="Menu">
+    <VerticalStackLayout>
+        <Grid RowDefinitions="" ColumnDefinitions="">
+            <Button BackgroundColor=AliceBlue Grid.Row="0" Grid.Column="0"Text="Acerca" Clicked="btnAcerca_Clicked"/>
+            <Button BackgroundColor=AliceBlue Grid.Row="0" Grid.Column="1"Text="Productos"/>
+
+            <Button BackgroundColor=AliceBlue Grid.Row="1" Grid.Column="0" Text="Clientes"/>
+            <Button BackgroundColor=AliceBlue Grid.Row="1" Grid.Column="1"Text="Proveedores"/>
+
+            <Button BackgroundColor=AliceBlue Grid.Row="0" Grid.Column="1"Text="Cerrar"/>
+        </Grid>
+    </VerticalStackLayout> 
+</ContentPage>
