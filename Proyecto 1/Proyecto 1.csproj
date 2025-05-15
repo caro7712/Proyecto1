@@ -63,13 +63,16 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="NewFolder\Login.xaml.cs">
-	    <DependentUpon>Login.xaml</DependentUpon>
+	  <Compile Update="NewFolder\Desarrollador.xaml.cs">
+	    <DependentUpon>Desarrollador.xaml</DependentUpon>
 	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="NewFolder\Home.xaml">
+	  <MauiXaml Update="NewFolder\AcercaPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="NewFolder\Desarrollador.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="NewFolder\Login.xaml">

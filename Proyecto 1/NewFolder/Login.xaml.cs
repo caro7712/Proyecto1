@@ -1,29 +1,28 @@
-using System.Runtime.InteropServices.ObjectiveC;
+ï»¿using Proyecto_1.NewFolder;
 
 namespace Proyecto_1.NewFolder;
 
 public partial class Login : ContentPage
 {
-	public Login()
-	{
-		InitializeComponent();
-	}
-}
-private void btnRegistrar_Clicked (ObjectiveCTrackedTypeAttribute sender, EventArgs e)
-{
-
-}
-private void btnIngresar_Clicked(ObjectiveCTrackedTypeAttribute sender, EventArgs e)
-{
-	if (passwordEntry.text=1234 && emailEntry.text=="alumno")
-
+    public Login()
     {
-		Application.Current.MainPage = new Menu7();
-
+        InitializeComponent();
     }
-	else
-    {
-		DisplayAlert("Error", "Contraseña incorrecta", "Ok");
 
+    private void btnRegistrar_Clicked(object sender, EventArgs e)
+    {
+        // Lï¿½gica para registrar
+    }
+
+    private void btnIngresar_Clicked(object sender, EventArgs e)
+    {
+        if (passwordEntry.Text == "1234" && emailEntry.Text == "alumno")
+        {
+            Application.Current.MainPage = new Menu();
+        }
+        else
+        {
+            DisplayAlert("Error", "Contraseï¿½a incorrecta", "Ok");
+        }
     }
 }
