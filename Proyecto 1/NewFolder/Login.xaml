@@ -7,7 +7,7 @@
                  
         <VerticalStackLayout>
 
-        <Image Margin="0,10" Source="dotnet_bot.png" WidthRequest="260" />
+        <Image Margin="0,10" Source="unnamed.png" WidthRequest="260" />
 
         <Label Text="Control de Acceso App" FontSize="Large"/>
 
