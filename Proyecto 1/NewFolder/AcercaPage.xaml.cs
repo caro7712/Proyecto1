@@ -6,10 +6,16 @@ public partial class AcercaPage : ContentPage
 	{
 		InitializeComponent();
 	}
-    private void btnAcerca_Clicked(object sender, EventArgs e)
+    private void btnAcercaPage_Clicked(object sender, EventArgs e)
 
     {
         //falta la pagina AcercaPage
         Application.Current.MainPage = new Home();
+    }
+   
+
+    {
+        
+        Application.Current.MainPage = new Menu();
     }
 }

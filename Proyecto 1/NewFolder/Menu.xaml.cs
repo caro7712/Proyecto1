@@ -7,18 +7,16 @@ public partial class Menu : ContentPage
 	{
 		InitializeComponent();
     }
-	private void btnAcerca_Clicked(object sender, EventArgs e)
+	private void btnMenu_Clicked(object sender, EventArgs e)
 
 	{
-		//falta la pagina AcercaPage
+		
 		Application.Current.MainPage = new AcercaPage();
 	}
 
-    private void btnDesarrolladorClicked(object sender, EventArgs e)
-
     {
-        //falta la pagina AcercaPage
-        Application.Current.MainPage = new AcercaPage();
+        
+        Application.Current.MainPage = new Home();
     }
     private void btnSalir_Clicked(object sender, EventArgs e)
     {
