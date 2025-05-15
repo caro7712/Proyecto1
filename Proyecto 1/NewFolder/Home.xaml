@@ -8,8 +8,10 @@
         
         <Label 
         Text="Telma Carolina Pardini 47 años
-             2 Años de Experiencia en App Movil."
+             2 Años de Experiencia en App Movil.
+             Correo: carolinapardini13@gmail.com"
         FontSize="16"
-        LineHeight="24" />
+        LineHeight="24" 
+        BackgroundColor="#D9D9D9"   />
     </VerticalStackLayout>
 </ContentPage>

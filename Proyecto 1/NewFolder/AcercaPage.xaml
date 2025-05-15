@@ -12,7 +12,8 @@
                      Por eso, innovamos en nuestras tres divisiones: 
                      Alimentos de consumo masivo, Agronegocios y Packaging."
                 FontSize="16"
-                LineHeight="24" />
+                LineHeight="24" 
+                BackgroundColor="#D9D9D9"/>
     </VerticalStackLayout>
 
     

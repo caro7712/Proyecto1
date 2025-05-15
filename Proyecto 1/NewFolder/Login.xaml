@@ -11,13 +11,13 @@
 
         <Label Text="Control de Acceso App" FontSize="Large"/>
 
-        <Label Text="Ingresar Email" TextColor="DarkBlue"/>
+        <Label Text="Ingresar Email" TextColor="#81595E"/>
         <Entry x:Name="emailEntry" Placeholder="Email"/>
 
-        <Label Text="Ingresar Password" TextColor="DarkBlue"/>
+        <Label Text="Ingresar Password" TextColor="#81595E"/>
         <Entry x:Name="passwordEntry" Placeholder="Password" IsPassword="True"/>
 
-        <HorizontalStackLayout Margin="0,20" HorizontalOptions="CenterAndExpand">
+        <HorizontalStackLayout Margin="0,20" HorizontalOptions="CenterAndExpand" BackgroundColor="#D9D9D9">
             <Button x:Name="btnIngresar" Clicked="btnIngresar_Clicked" Text="Ingresar" Margin="0,5"/>
             <Button x:Name="btnRegistrar" Clicked="btnRegistrar_Clicked" Text="Registrar"/>
         </HorizontalStackLayout>
