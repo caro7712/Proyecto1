@@ -18,8 +18,8 @@
             </Grid.ColumnDefinitions>
 
             <Button Grid.Row="0" Grid.Column="0" BackgroundColor="#BFACAC" Text="Acerca" Clicked="btnAcerca_Clicked"/>
-            <Button Grid.Row="0" Grid.Column="1" BackgroundColor="AliceBlue" Text="Desarrollador" Clicked="btnDesarrolladorClicked"/>
-            <Button Grid.Row="1" Grid.Column="1" BackgroundColor="AliceBlue" Text="Salir" Clicked="SalirClicked"/>
+            <Button Grid.Row="0" Grid.Column="1" BackgroundColor="#BFACAC" Text="Desarrollador" Clicked="btnDesarrollador_Clicked"/>
+            <Button Grid.Row="1" Grid.Column="1" BackgroundColor="#BFACAC" Text="Salir" Clicked="Salir_Clicked"/>
             
         </Grid>
     </VerticalStackLayout>
