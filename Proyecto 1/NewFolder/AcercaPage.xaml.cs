@@ -12,7 +12,8 @@ public partial class AcercaPage : ContentPage
         //falta la pagina AcercaPage
         Application.Current.MainPage = new Home();
     }
-   
+    private void btnAcercaPage_Clicked(object sender, EventArgs e)
+
 
     {
         

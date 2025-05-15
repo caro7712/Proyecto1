@@ -13,7 +13,7 @@ public partial class Menu : ContentPage
 		
 		Application.Current.MainPage = new AcercaPage();
 	}
-
+    private void btnMenu_Clicked(object sender, EventArgs e)
     {
         
         Application.Current.MainPage = new Home();
