@@ -5,7 +5,7 @@
              BackgroundColor="#BFACAC"
              Title="AcercaPage">
     <VerticalStackLayout>
-        
+        <Label Text="AcercaPage" />
         <Label 
                 Text="Trabajamos con el propósito de hacer accesibles las tendencias en alimentación
                      para que todas las personas puedan vivir mejor. 

@@ -5,7 +5,7 @@
              BackgroundColor="#BFACAC"
              Title="Home">
     <VerticalStackLayout>
-        
+        <Label Text="Home" />
         <Label 
         Text="Telma Carolina Pardini 47 años
              2 Años de Experiencia en App Movil.
