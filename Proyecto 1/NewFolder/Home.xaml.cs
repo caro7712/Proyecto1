@@ -7,12 +7,11 @@ public partial class Home : ContentPage
 		InitializeComponent();
 	}
     private void btnHome_Clicked(object sender, EventArgs e)
-
     {
         
         Application.Current.MainPage = new AcercaPage();
     }
-    private void btnHome_Clicked(object sender, EventArgs e)
+    private void btnMenu_Clicked(object sender, EventArgs e)
     {
         
         Application.Current.MainPage = new Menu();

@@ -7,17 +7,22 @@ public partial class Menu : ContentPage
 	{
 		InitializeComponent();
     }
-	private void btnMenu_Clicked(object sender, EventArgs e)
-
+	private void btnAcerca_Clicked(object sender, EventArgs e)
 	{
 		
 		Application.Current.MainPage = new AcercaPage();
 	}
-    private void btnMenu_Clicked(object sender, EventArgs e)
+
+
+
+    private void btnHome_Clicked(object sender, EventArgs e)
     {
         
         Application.Current.MainPage = new Home();
     }
+
+
+
     private void btnSalir_Clicked(object sender, EventArgs e)
     {
       #if ANDROID

@@ -18,9 +18,24 @@
         <Label Text="Ingresar Password" TextColor="#81595E"/>
         <Entry x:Name="passwordEntry" Placeholder="Password" IsPassword="True"/>
 
-        <HorizontalStackLayout Margin="0,20" HorizontalOptions="CenterAndExpand" BackgroundColor="#D9D9D9">
-            <Button x:Name="btnIngresar" Clicked="btnIngresar_Clicked" Text="Ingresar" Margin="0,5"/>
-            <Button x:Name="btnRegistrar" Clicked="btnRegistrar_Clicked" Text="Registrar" Margin="0,5"/>
+        <HorizontalStackLayout Margin="0,20" HorizontalOptions="CenterAndExpand" >
+            <Button 
+                Padding="50,0"
+                x:Name="btnIngresar" 
+                Clicked="btnIngresar_Clicked" 
+                Text="Ingresar" 
+                TextColor="Black"
+                Margin="0,0,80,0" 
+                BackgroundColor="#D9D9D9"/>
+            
+            <Button 
+                Padding="50,0"
+                x:Name="btnRegistrar" 
+                Clicked="btnRegistrar_Clicked" 
+                Text="Registrar" 
+                TextColor="Black"
+                Margin="0,0,0,0" 
+                BackgroundColor="#D9D9D9"/>
         </HorizontalStackLayout>
 
     </VerticalStackLayout>

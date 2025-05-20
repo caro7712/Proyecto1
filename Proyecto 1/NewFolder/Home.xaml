@@ -5,13 +5,60 @@
              BackgroundColor="#BFACAC"
              Title="Home">
     <VerticalStackLayout>
-        <Label Text="Home" />
         <Label 
-        Text="Telma Carolina Pardini 47 años
-             2 Años de Experiencia en App Movil.
-             Correo: carolinapardini13@gmail.com"
-        FontSize="16"
-        LineHeight="24" 
-        BackgroundColor="#D9D9D9"   />
+        Text="Home"
+        FontSize="35"
+        Margin="150,30"/>
+        <Label 
+            Text="Telma Carolina Pardini, 47 años.
+            
+            
+            Dos años de experiencia en App Movil.
+            
+            
+            Correo:
+            carolinapardini@gmail.com"
+            FontSize="27"
+            LineHeight="1"
+            Padding="0,60,0,180" 
+            BackgroundColor="#D9D9D9"
+            Margin="30,0,30,0"/>
+
+        <Frame 
+            Padding="0" 
+            HasShadow="True" 
+            CornerRadius="10" 
+            BackgroundColor="#D9D9D9"
+            Margin="0,25">
+
+            <Grid>
+                <!-- Botón funcional que cubre todo -->
+                <Button 
+                    BackgroundColor="Transparent"
+                    Clicked="btnMenu_Clicked" />
+
+                <!-- Contenido encima del botón -->
+                <HorizontalStackLayout 
+                    VerticalOptions="Center" 
+                    HorizontalOptions="Center"
+                    Spacing="10">
+
+                    <ImageButton 
+                        Source="menu.png" 
+                        WidthRequest="60" 
+                        HeightRequest="60" 
+                        BackgroundColor="Transparent"
+                        IsEnabled="False"/>
+                    <!-- Desactivado para que el click pase al Button -->
+
+                    <Label 
+                        Text="Menu" 
+                        FontSize="40" 
+                        VerticalOptions="Center"
+                        TextColor="Black"/>
+                </HorizontalStackLayout>
+            </Grid>
+        </Frame>
+
     </VerticalStackLayout>
 </ContentPage>

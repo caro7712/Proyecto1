@@ -6,23 +6,131 @@
              Title="Menu">
 
     <VerticalStackLayout>
-        <Label Text="Menu" />
-        <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
+        
+        <Label Text="Menu" 
+               Margin="0,0"
+               FontSize="50"
+               WidthRequest="140"
+               HeightRequest="100"/>
 
-            <Button Grid.Column="0" Margin="0,5" BackgroundColor="#D9D9D9" Text="Acerca" Clicked="btnAcerca_Clicked"/>
-            <Button Grid.Column="1" Margin="0,5" BackgroundColor="#D9D9D9" Text="Home" Clicked="btnHome_Clicked"/>
-            <Button Grid.Column="2" Margin="0,5" BackgroundColor="#D9D9D9" Text="Salir" Clicked="Salir_Clicked"/>
-            
-        </Grid>
+        <Frame 
+            Padding="0" 
+            HasShadow="True" 
+            CornerRadius="10" 
+            BackgroundColor="#D9D9D9"
+            Margin="0,5">
+
+            <Grid>
+                <!-- Botón funcional que cubre todo -->
+                <Button 
+                    BackgroundColor="Transparent"
+                    Clicked="btnAcerca_Clicked" />
+
+                <!-- Contenido encima del botón -->
+                <HorizontalStackLayout 
+                    VerticalOptions="Center" 
+                    HorizontalOptions="Center"
+                    Spacing="10">
+
+                    <ImageButton 
+                        Source="menu.png" 
+                        WidthRequest="60" 
+                        HeightRequest="60" 
+                        BackgroundColor="Transparent"
+                        IsEnabled="False"/>
+                    <!-- Desactivado para que el click pase al Button -->
+
+                    <Label 
+                        Text="AcercaPage" 
+                        FontSize="40" 
+                        VerticalOptions="Center"
+                        TextColor="Black"/>
+                </HorizontalStackLayout>
+            </Grid>
+        </Frame>
+        
+        
+        <Frame 
+            Padding="0" 
+            HasShadow="True" 
+            CornerRadius="10" 
+            BackgroundColor="#D9D9D9"
+            Margin="0,25">
+
+            <Grid>
+                <!-- Botón funcional que cubre todo -->
+                <Button 
+                    BackgroundColor="Transparent"
+                    Clicked="btnHome_Clicked" />
+
+                <!-- Contenido encima del botón -->
+                <HorizontalStackLayout 
+                     VerticalOptions="Center" 
+                     HorizontalOptions="Center"
+                     Spacing="10">
+
+                    <ImageButton 
+                        Source="home.png" 
+                        WidthRequest="60" 
+                        HeightRequest="60" 
+                        BackgroundColor="Transparent"
+                        IsEnabled="False"/>
+                    <!-- Desactivado para que el click pase al Button -->
+
+                    <Label 
+                        Text="Home" 
+                        FontSize="40" 
+                        VerticalOptions="Center"
+                        TextColor="Black"/>
+                </HorizontalStackLayout>
+            </Grid>
+        </Frame>
+
+
+
+
+        <Frame 
+            Padding="0" 
+            HasShadow="True" 
+            CornerRadius="10" 
+            BackgroundColor="#D9D9D9"
+            Margin="0,5">
+
+            <Grid>
+                <!-- Botón funcional que cubre todo -->
+                <Button 
+                    BackgroundColor="Transparent"
+                    Clicked="btnAcerca_Clicked" />
+
+                <!-- Contenido encima del botón -->
+                <HorizontalStackLayout 
+                     VerticalOptions="Center" 
+                     HorizontalOptions="Center"
+                     Spacing="10">
+
+                    <ImageButton 
+                        Source="close.png"
+                        WidthRequest="60" 
+                        HeightRequest="60" 
+                        BackgroundColor="Transparent"
+                        IsEnabled="False"/>
+                    <!-- Desactivado para que el click pase al Button -->
+
+                    <Label 
+                        Text="Salir" 
+                        FontSize="40" 
+                        VerticalOptions="Center"
+                        TextColor="Black"/>
+                </HorizontalStackLayout>
+            </Grid>
+        </Frame>
+
+
+
+
+  
+
+        
     </VerticalStackLayout>
 
 </ContentPage>
